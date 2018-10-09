@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Android Programming in Kotlin</string>
-    <string name="trrrt">Hello Universe</string>
+    <string name="zero">0</string>
+    <string name="toast">Toast</string>
+    <string name="count">Count</string>
+    <string name="random">Random</string>
 </resources>
