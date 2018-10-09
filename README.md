@@ -1,2 +1,2 @@
 # Kotlin000
-Learning the basics in Kotlin for Android
+Learning the basics of Android programming in Kotlin
