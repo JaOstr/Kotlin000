@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import pl.trrrt.kotlin000.R.id.textView
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,12 +14,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun toastMe(view: View) {
+    fun toastMe(@Suppress("UNUSED_PARAMETER") view: View) {
         val toast = Toast.makeText(this, "Hello Toast!", Toast.LENGTH_SHORT)
         toast.show()
     }
 
-    fun countMe(view: View) {
+    fun countMe(@Suppress("UNUSED_PARAMETER") view: View) {
         val cnt = Integer.parseInt(textView.text.toString()) + 1
         textView.text = cnt.toString()
     }
